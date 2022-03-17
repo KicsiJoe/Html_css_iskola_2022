@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        display: flex;
+        border: 1px solid black;
+        margin: 20px;
+
+        justify-content: center;
+        align-items: center;
+      }
+      .kep {
+        margin: 20px;
+        min-height: 150px;
+        min-width: 100px;
+        background-color: lightblue;
+      }
+      .szoveg {
+        margin: 20px;
+        border: 1px solid black;
+      }
+      .navbar {
+        display: flex;
+        margin: 20px;
+        border: 1px solid black;
+        justify-content: end;
+      }
+      a {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 10px;
+      }
+
+      .elsoFeladat {
+        margin-right: auto;
+      }
+    </style>
+    <div class="navbar">
+      <p class="elsoFeladat"><a href="#">LINK</a></p>
+      <p><a href="#">LINK</a></p>
+      <p><a href="#">LINK</a></p>
+      <p><a href="#">LINK</a></p>
+    </div>
+    <div class="container">
+      <div class="kep"></div>
+      <div class="szoveg">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+          saepe magnam quia neque eos? Itaque quisquam temporibus aliquam
+          laudantium libero?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+          saepe magnam quia neque eos? Itaque quisquam temporibus aliquam
+          laudantium libero?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+          saepe magnam quia neque eos? Itaque quisquam temporibus aliquam
+          laudantium libero?
+        
+        </p>
+      </div>
+    </div>
+    <style>
+      section {
+        display: flex;
+        border: 1px solid black;
+        justify-content: space-between;
+      }
+      .elso,
+      .masodik {
+        box-sizing: border-box;
+        border: 1px solid black;
+      }
+      .elso {
+        flex-basis: 25%;
+      }
+      .masodik {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 70%;
+      }
+      .link-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      /*   .link-box-navbar .linkek {
+          
+          
+      } */
+      .kep-box {
+        width: 80%;
+        height: 60%;
+      }
+      .link-box-navbar {
+        display: flex;
+        border: 1px solid black;
+        margin: 20px;
+        flex-direction: row-reverse;
+      }
+      h3 {
+        text-align: center;
+      }
+      .kep-box {
+        border: 1px solid black;
+        width: 60%;
+        min-width: 100px;
+        max-width: 200px;
+        height: 14em;
+
+        margin: 20px auto;
+      }
+
+      .also {
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+        align-self: center;
+      }
+      .kepek {
+          
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+        background-color: aqua;
+        
+      }
+      .kepek:nth-child(3) {
+          background-color: blue;
+          height: 200px;
+      }
+      .kepek:nth-child(5) {
+          background-color: blue;
+          height: 150px;
+         
+      }
+      .kepek:nth-child(7) {
+          background-color: blue;
+          height: 80px;
+      }
+    </style>
+    <section>
+      <div class="elso">
+        <h3>Welcome</h3>
+        <div class="link-box">
+          <a href="#" class="linkek">LINK</a>
+          <a href="#" class="linkek">LINK</a>
+          <a href="#" class="linkek">LINK</a>
+        </div>
+        <div class="kep-box">
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div class="masodik">
+        <div class="felso">
+          <div class="link-box-navbar">
+            <a href="" class="linkek">LINK</a>
+            <a href="" class="linkek">LINK</a>
+            <a href="" class="linkek">LINK</a>
+          </div>
+        </div>
+        <div class="also">
+          <div class="kepek"></div>
+          <div class="kepek"></div>
+          <div class="kepek harmadik-kep"></div>
+          <div class="kepek"></div>
+          <div class="kepek negyedik-kep"></div>
+          <div class="kepek"></div>
+          <div class="kepek"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
